@@ -1,0 +1,195 @@
+[
+  {
+    "answer": "MRI",
+    "category": [
+      "Medical - Imaging Modality"
+    ],
+    "choices": [
+      "CT",
+      "MRI",
+      "Ultrasound",
+      "X-ray"
+    ],
+    "question": "What imaging modality was used to acquire this scan?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Axial",
+    "category": [
+      "Medical - Imaging Plane"
+    ],
+    "choices": [
+      "Sagittal",
+      "Coronal",
+      "Axial",
+      "Oblique"
+    ],
+    "question": "In which anatomical plane is this cross-sectional image presented?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "T2-weighted",
+    "category": [
+      "Medical - Imaging Technique"
+    ],
+    "choices": [
+      "T1-weighted",
+      "T2-weighted",
+      "Proton Density",
+      "Diffusion-weighted"
+    ],
+    "question": "Based on the hyperintense (bright) signal of the cerebrospinal fluid in the spinal canal, what is the weighting of this MRI sequence?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Liver",
+    "category": [
+      "Attribute - Size",
+      "Medical - Organ Identification"
+    ],
+    "choices": [
+      "Spleen",
+      "Liver",
+      "Stomach",
+      "Pancreas"
+    ],
+    "question": "Which organ occupies the largest area in the upper left quadrant of the image (patient's right side)?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "2",
+    "category": [
+      "Attribute - Count/Quantity"
+    ],
+    "choices": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "question": "How many kidneys are clearly visible in this slice?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Lateral",
+    "category": [
+      "Spatial - Relationship"
+    ],
+    "choices": [
+      "Anterior",
+      "Lateral",
+      "Medial",
+      "Posterior"
+    ],
+    "question": "What is the position of the kidneys relative to the vertebral column (spine)?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Spleen",
+    "category": [
+      "Medical - Organ Identification"
+    ],
+    "choices": [
+      "Liver",
+      "Spleen",
+      "Gallbladder",
+      "Right Kidney"
+    ],
+    "question": "Identify the organ located on the right side of the image (patient's left), lateral to the stomach area.",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Hyperintense",
+    "category": [
+      "Attribute - Appearance"
+    ],
+    "choices": [
+      "Hyperintense",
+      "Hypointense",
+      "Isointense",
+      "Signal void"
+    ],
+    "question": "How would you describe the signal intensity of the fluid within the spinal canal compared to the muscle tissue?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Yes",
+    "category": [
+      "Object Existence - Object presence"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "question": "Is the vertebral body (spine) visible in the center of the image?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Abdomen",
+    "category": [
+      "Medical - Anatomical Location"
+    ],
+    "choices": [
+      "Thorax",
+      "Pelvis",
+      "Abdomen",
+      "Head"
+    ],
+    "question": "Which body region is being imaged in this scan?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Bean-shaped",
+    "category": [
+      "Attribute - Shape"
+    ],
+    "choices": [
+      "Bean-shaped",
+      "Spherical",
+      "Triangular",
+      "Tubular"
+    ],
+    "question": "What is the characteristic shape of the bilateral structures (kidneys) seen near the spine?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "No",
+    "category": [
+      "Object Existence - Object presence"
+    ],
+    "choices": [
+      "Yes",
+      "No"
+    ],
+    "question": "Are the lungs visible in this specific cross-section?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Smooth",
+    "category": [
+      "Attribute - Texture"
+    ],
+    "choices": [
+      "Smooth",
+      "Nodular",
+      "Cystic",
+      "Irregular"
+    ],
+    "question": "Does the contour of the liver appear smooth or nodular in this image?",
+    "source": "gemini-pro-vision"
+  },
+  {
+    "answer": "Anterior",
+    "category": [
+      "Spatial - Relationship"
+    ],
+    "choices": [
+      "Posterior",
+      "Anterior",
+      "Superior",
+      "Inferior"
+    ],
+    "question": "Where is the aorta located relative to the vertebral body?",
+    "source": "gemini-pro-vision"
+  }
+]
