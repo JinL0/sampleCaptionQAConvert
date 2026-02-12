@@ -1,0 +1,2434 @@
+[
+  {
+    "id": "med_000",
+    "domain": "medical",
+    "split": "validation",
+    "image_paths": [
+      "xmlab0/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Are there abnormalities in this image?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      },
+      {
+        "question": "What is the largest organ in the picture?",
+        "answer": "Liver",
+        "choices": [],
+        "category": [
+          "Attribute - Size",
+          "Spatial - Comparison",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Size"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "What diseases are included in the picture?",
+        "answer": "None",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Abnormality"
+      },
+      {
+        "question": "Where is the liver?",
+        "answer": "Right",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_001",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab1/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Where is the liver?",
+        "answer": "Right",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_002",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab2/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Are there abnormalities in this image?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      },
+      {
+        "question": "What is the largest organ in the picture?",
+        "answer": "Liver",
+        "choices": [],
+        "category": [
+          "Attribute - Size",
+          "Spatial - Comparison",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Size"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "What diseases are included in the picture?",
+        "answer": "None",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Abnormality"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_003",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab3/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Where is the liver?",
+        "answer": "Not seen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_004",
+    "domain": "medical",
+    "split": "validation",
+    "image_paths": [
+      "xmlab4/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_005",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab5/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "What is the largest organ in the picture?",
+        "answer": "Liver",
+        "choices": [],
+        "category": [
+          "Attribute - Size",
+          "Spatial - Comparison",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Size"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_006",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab6/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_007",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab7/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_008",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab8/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_009",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab9/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Is the liver normal in this image?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Modality"
+      },
+      {
+        "question": "What is the largest organ in the picture?",
+        "answer": "Liver",
+        "choices": [],
+        "category": [
+          "Attribute - Size",
+          "Spatial - Comparison",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Size"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_010",
+    "domain": "medical",
+    "split": "validation",
+    "image_paths": [
+      "xmlab10/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "How many kidneys in this image?",
+        "answer": "2",
+        "choices": [],
+        "category": [
+          "Attribute - Count/Quantity"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Quantity"
+      },
+      {
+        "question": "Are/Is the kidney normal in this image?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_011",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab11/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does spleen look abnormal?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Where is the spleen?",
+        "answer": "Lower right",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_012",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab12/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Where is the liver?",
+        "answer": "Not seen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_013",
+    "domain": "medical",
+    "split": "test",
+    "image_paths": [
+      "xmlab13/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Is there any abnormality in the spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      },
+      {
+        "question": "Does the liver look normal?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_014",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab14/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "How many kidneys are there in this image?",
+        "answer": "2",
+        "choices": [],
+        "category": [
+          "Attribute - Count/Quantity"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Quantity"
+      },
+      {
+        "question": "What is the largest organ in the picture?",
+        "answer": "Liver",
+        "choices": [],
+        "category": [
+          "Attribute - Size",
+          "Spatial - Comparison",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Size"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_015",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab15/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Is the spleen healthy?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_016",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab16/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Are the kidneys healthy?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_017",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab17/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_018",
+    "domain": "medical",
+    "split": "test",
+    "image_paths": [
+      "xmlab18/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "How many kidneys are there in this image?",
+        "answer": "1",
+        "choices": [],
+        "category": [
+          "Attribute - Count/Quantity"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Quantity"
+      },
+      {
+        "question": "What is the largest organ in the picture?",
+        "answer": "Liver",
+        "choices": [],
+        "category": [
+          "Attribute - Size",
+          "Spatial - Comparison",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Size"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the liver look normal ?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      },
+      {
+        "question": "Does the kidney look abnormal?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      },
+      {
+        "question": "Do the spleen look abnormal?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Scene-Level Evaluation - Abnormality Detection",
+          "Medical - Pathology",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Abnormality"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  },
+  {
+    "id": "med_019",
+    "domain": "medical",
+    "split": "train",
+    "image_paths": [
+      "xmlab19/source.jpg"
+    ],
+    "questions": [
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "How many kidneys are there in this image?",
+        "answer": "2",
+        "choices": [],
+        "category": [
+          "Attribute - Count/Quantity"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Quantity"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "What modality is used to take this image?",
+        "answer": "MRI",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "Which part of the body does this image belong to?",
+        "answer": "Abdomen",
+        "choices": [],
+        "category": [
+          "Spatial - Relationship",
+          "Medical - Anatomical Location",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Position"
+      },
+      {
+        "question": "What is the mr weighting in this image?",
+        "answer": "T2",
+        "choices": [],
+        "category": [
+          "Scene-Level Evaluation - Environment/Setting",
+          "Medical - Imaging Modality",
+          "Object Existence - Binary Classification"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Modality"
+      },
+      {
+        "question": "How many kidneys are there in this image?",
+        "answer": "2",
+        "choices": [],
+        "category": [
+          "Attribute - Count/Quantity"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Quantity"
+      },
+      {
+        "question": "Does the picture contain liver?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain kidney?",
+        "answer": "Yes",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "Does the picture contain spleen?",
+        "answer": "No",
+        "choices": [
+          "Yes",
+          "No"
+        ],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "CLOSED",
+        "content_type": "Organ"
+      },
+      {
+        "question": "What is the organ on the left of the right kidney?",
+        "answer": "Liver",
+        "choices": [],
+        "category": [
+          "Object Existence - Object presence",
+          "Medical - Organ Detection"
+        ],
+        "source": "slake",
+        "answer_type": "OPEN",
+        "content_type": "Organ"
+      }
+    ],
+    "location": "Abdomen",
+    "modality": "MRI"
+  }
+]
