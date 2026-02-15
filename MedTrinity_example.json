@@ -1,0 +1,86 @@
+[
+  {
+    "answer": "Hyperdense (Bright)",
+    "category": [
+      "Attribute - State"
+    ],
+    "choices": [
+      "Hypodense (Dark)",
+      "Isodense (Same as brain)",
+      "Hyperdense (Bright)",
+      "Anechoic"
+    ],
+    "question": "In an acute intracranial hemorrhage, how would the density of the blood typically appear on a non-contrast CT scan?",
+    "source": "gemini"
+  },
+  {
+    "answer": "Ventricles and Subarachnoid spaces",
+    "category": [
+      "Attribute - Part-Whole Relationships"
+    ],
+    "choices": [
+      "Ventricles and Subarachnoid spaces",
+      "Alveoli and Bronchioles",
+      "Glomerulus and Nephrons",
+      "Myocardium and Septum"
+    ],
+    "question": "Which specific fluid-filled structures are visible in this brain scan as landmarks?",
+    "source": "gemini"
+  },
+  {
+    "answer": "Mass effect or Midline shift",
+    "category": [
+      "Spatial - Relationship"
+    ],
+    "choices": [
+      "Cortical atrophy",
+      "Mass effect or Midline shift",
+      "Ventricular shrinkage",
+      "Increased myelination"
+    ],
+    "question": "If the 'abnormal area' is affecting surrounding structures, what radiological sign of pressure might be observed?",
+    "source": "gemini"
+  },
+  {
+    "answer": "Central and lower-middle",
+    "category": [
+      "Spatial - Layout"
+    ],
+    "choices": [
+      "Peripheral and superior",
+      "Central and lower-middle",
+      "Left temporal only",
+      "Right occipital only"
+    ],
+    "question": "In which specific anatomical orientation is the suspected hemorrhage located?",
+    "source": "gemini"
+  },
+  {
+    "answer": "Non-contrast CT",
+    "category": [
+      "Attribute - State"
+    ],
+    "choices": [
+      "Contrast-enhanced CT",
+      "Non-contrast CT",
+      "T2-weighted MRI",
+      "Functional MRI"
+    ],
+    "question": "What is the gold-standard initial imaging modality used here to quickly differentiate between a bleed and an ischemic stroke?",
+    "source": "gemini"
+  },
+  {
+    "answer": "0.5%",
+    "category": [
+      "Attribute - Count/Quantity"
+    ],
+    "choices": [
+      "0.1%",
+      "0.5%",
+      "2.0%",
+      "5.0%"
+    ],
+    "question": "What is the relative volumetric size of the lesion compared to the total captured image area?",
+    "source": "gemini"
+  }
+]
